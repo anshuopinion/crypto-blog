@@ -31,7 +31,7 @@ const Hero = () => {
       </Stack>
       <Flex mt={{ base: "8", md: "0" }} justifyContent="center">
         <Image
-          width={{ base: "80%", md: "auto" }}
+          width={{ base: "70%", md: "auto" }}
           mr="4"
           src="/images/btc.svg"
         />

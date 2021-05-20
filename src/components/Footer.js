@@ -5,11 +5,10 @@ const Footer = () => {
   return (
     <Grid
       placeItems="center"
-      bg="orange"
-      p="8"
-      fontSize="xl"
+      fontSize="2xl"
+      bg="orange.600"
       color="white"
-      fontWeight="bold"
+      p="8"
     >
       2021 © copyright @dosomecoding
     </Grid>

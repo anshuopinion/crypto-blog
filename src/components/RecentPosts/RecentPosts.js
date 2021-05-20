@@ -1,11 +1,17 @@
-import { Container, Grid, GridItem, Heading } from "@chakra-ui/layout";
+import { Grid } from "@chakra-ui/layout";
+import { Container } from "@chakra-ui/layout";
+import { GridItem } from "@chakra-ui/layout";
 import PostCard from "./PostCard";
 import { blogData } from "../../data";
+import { Heading } from "@chakra-ui/layout";
 const RecentPosts = () => {
   return (
-    <Container maxW="1300px">
+    <Container
+      maxW="
+    1300px"
+    >
       <Heading m="8" fontSize="2xl">
-        Recent Post..
+        Recent Posts
       </Heading>
       <Grid
         gridGap="4"
@@ -17,8 +23,8 @@ const RecentPosts = () => {
           </GridItem>
         ))}
       </Grid>
-      <Heading my="8" textAlign="center" fontSize="2xl">
-        Read more..
+      <Heading m="8" textAlign="center" fontSize="2xl">
+        Read more...
       </Heading>
     </Container>
   );

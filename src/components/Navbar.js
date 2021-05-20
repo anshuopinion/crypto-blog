@@ -13,6 +13,10 @@ const NavBar = () => {
       padding="4"
       boxShadow="lg"
       borderRadius="lg"
+      pos="sticky"
+      top="0"
+      zIndex="50"
+      bg="white"
     >
       <Flex align="center">
         <Image mr="4" w="50px" h="50px" src="/images/btc.svg" />
@@ -28,7 +32,7 @@ const NavBar = () => {
           <Input
             w={{ base: "100px", sm: "160px", md: "auto" }}
             type="tel"
-            placeholder="Phone number"
+            placeholder="Search Post..."
           />
         </InputGroup>
       </Flex>
